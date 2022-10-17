@@ -15,22 +15,6 @@
       <version>3.1.0</version>
     </dependency>
 
-
-	<dependency>
-    		<groupId>ojdbc</groupId>
-    		<artifactId>ojdbc</artifactId>
-    		<version>14</version>
-	</dependency>
-
-
-<dependency>
-    <groupId>javax.servlet.jsp.jstl</groupId>
-    <artifactId>jstl</artifactId>
-    <version>1.2</version>
-</dependency>
-
-
-
   </dependencies>
   <build>
     <plugins>
