@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.example</groupId>
+  <groupId>br.com.fiap.jdc</groupId>
   <version>1.0-SNAPSHOT</version>
   <artifactId>loja-virtual_v2</artifactId>
   <packaging>war</packaging>
@@ -14,6 +14,23 @@
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>
     </dependency>
+
+
+	<dependency>
+    		<groupId>ojdbc</groupId>
+    		<artifactId>ojdbc</artifactId>
+    		<version>14</version>
+	</dependency>
+
+
+<dependency>
+    <groupId>javax.servlet.jsp.jstl</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+
+
+
   </dependencies>
   <build>
     <plugins>
@@ -29,10 +46,10 @@
                 <configuration>
                     <artifactItems>
                         <artifactItem>
-                            <groupId>com.github.jsimone</groupId>
-                            <artifactId>webapp-runner-main</artifactId>
-                            <version>8.5.23.1</version>
-                            <destFileName>webapp-runner.jar</destFileName>
+                            <groupId>br.com.fiap.jdbc</groupId>
+                            <artifactId>loja-virtual_v2</artifactId>
+                            <version>1</version>
+                            <destFileName>loja-virtual_v2.war</destFileName>
                         </artifactItem>
                     </artifactItems>
                 </configuration>
